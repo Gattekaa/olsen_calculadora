@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+h1{
+    padding: 3px;
+}
+
+
+.fundo {
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+}
+
+#calculadora {
+    position: absolute;
+    background-color: #242a4d;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 2px 8px 15px 5px rgba(0, 0, 0, 0.596);
+
+
+}
+
+.botao {
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #333a58;
+    border: none;
+    margin: 3px;
+    color: #fff;
+    transition-duration: 0.4s;
+}
+.botaored {
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #ff3764;
+    border: none;
+    margin: 3px;
+    color: #fff;
+    transition-duration: 0.4s;
+}
+.botao2 {
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #50556e;
+    border: none;
+    margin: 3px;
+    color: #ee62a1;
+    transition-duration: 0.4s;
+}
+
+
+
+.botao:hover{
+    background-color: #424a6e;
+}
+.botao:active{
+    background-color: #1719222a;
+    transition-duration: 0.2s;
+}
+.botao2:hover{
+    background-color: #555f8b;
+}
+.botao2:active{
+    background-color: #1719222a;
+    transition-duration: 0.2s;
+}
+.botaored:hover{
+    background-color: #ee4c6f;
+}
+.botaored:active{
+    background-color: #ee4c6f4a;
+    transition-duration: 0.2s;
+}
+
+#resultado{
+    background-color: #333a58;
+    width: 334px;
+    height: 50px;
+    margin: 5px 0 0 5px;
+    font-size: 25px;
+    color: rgb(180, 175, 175);
+    text-align: right;
+    padding: 5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-radius: 10px 10px 0 0;
+
+}
+#resultado2{
+    background-color: #333a58;
+    width: 334px;
+    height: 50px;
+    margin: 0 0 4px 5px;
+    padding-bottom: 15px;
+    font-size: 50px;
+    color: #fff;
+    text-align: right;
+    padding: 5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-radius: 0 0 10px 10px;
+
+}
+td{
+    box-shadow:-2px 5px 3px #1f2231;
+}
+
+.tag{
+    padding: 8px;
+    color: rgba(158, 151, 151, 0.123);
+    font-size: 14px;
+    
+}
+::-webkit-scrollbar{
+    height: 4px;
+
+}
+
+::-webkit-scrollbar-track{
+    background-color: gray;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(220, 20, 60);
+    
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(0, 255, 255);
+    
+
+}

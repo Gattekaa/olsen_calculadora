@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/189a847120.js" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+    <div class="fundo">
+        <div id="calculadora">
+            <h1>Calculadora</h1>
+            <p id="resultado"></p>
+            <p id="resultado2"></p>
+            <table>
+                <tr>
+                    <td><button class="botao2" onclick="clean()"><i class="fab fa-cuttlefish"></i></button></td>
+                    <td><button class="botao2" onclick="insert('%')"><i class="fas fa-percentage"></i></button></td>
+                    <td><button class="botao2" onclick="insert('/')"><i class="fas fa-divide"></i></button></td>
+                    <td><button class="botao2" onclick="insert('*')"><i class="fas fa-times"></i></button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="insert('7')">7</button></td>
+                    <td><button class="botao" onclick="insert('8')">8</button></td>
+                    <td><button class="botao" onclick="insert('9')">9</button></td>
+                    <td><button class="botao2" onclick="insert('-')"><i class="fas fa-minus"></i></button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="insert('4')">4</button></td>
+                    <td><button class="botao" onclick="insert('5')">5</button></td>
+                    <td><button class="botao" onclick="insert('6')">6</button></td>
+                    <td><button class="botao2" onclick="insert('+')"><i class="fas fa-plus"></i></button></td>
+                    <tr>
+                        <td><button class="botao" onclick="insert('1')">1</button></td>
+                        <td><button class="botao" onclick="insert('2')">2</button></td>
+                        <td><button class="botao" onclick="insert('3')">3</button></td>
+                        <td rowspan="2"><button class="botaored" onclick="calcular()" style="height: 170px;"><i class="fas fa-equals"></i></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="botao" onclick="insert('0')">0</button></td>
+                        <td><button class="botao" onclick="insert('.')">.</button></td>
+                        <td><button class="botao" onclick="back()"><i class="fas fa-backspace"></i></button></td>
+                    </tr>
+                </tr>
+            </table>
+            <h2 class="tag">Vinicius Olsen</h2>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js.js"></script>
+</body>
+</html>
